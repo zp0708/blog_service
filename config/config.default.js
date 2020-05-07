@@ -50,7 +50,7 @@ module.exports = appInfo => {
 
   config.cors = {
     origin: 'http://localhost:3000',
-    credentials: true,
+    credentials: true, // 允许Cook可以跨域
     allowMethods: 'GET,POST',
   };
 
